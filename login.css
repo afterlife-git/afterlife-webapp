@@ -1,0 +1,92 @@
+/*!* Common styles for both login and signup containers *!*/
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box; !* Include padding and border in element's total width and height *!*/
+/*}*/
+
+/*body {*/
+/*    font-family: 'Poppins', monospace;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*!* Styles for login container *!*/
+/*.login-container {*/
+/*    text-align: center;*/
+/*}*/
+
+/*.login-container h1 {*/
+/*    color: #343434;*/
+/*}*/
+
+/*#loginForm {*/
+/*    margin-top: 20px;*/
+/*    display: flex;*/
+/*    flex-direction: column; !* Display form fields in a column *!*/
+/*    align-items: center; !* Center items horizontally *!*/
+/*}*/
+
+/*#loginForm label,*/
+/*#loginForm input {*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*#loginForm button {*/
+/*    margin-top: 20px;*/
+/*    width: 50%; !* Make the button 50% of the container width *!*/
+/*    cursor: pointer;*/
+/*    border: 0;*/
+/*    border-radius: 4px;*/
+/*    font-weight: 600;*/
+/*    padding: 10px 0;*/
+/*    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);*/
+/*    transition: 0.4s;*/
+/*}*/
+
+/*#loginForm button:active {*/
+/*    background-color: #800080; !* Purple color *!*/
+/*    color: #fff; !* White text *!*/
+/*}*/
+
+/*!* Styles for signup container *!*/
+/*.signup-container {*/
+/*    text-align: center;*/
+/*    margin-top: 50px; !* Adjust as needed *!*/
+/*}*/
+
+/*.signup-container h1 {*/
+/*    color: #343434;*/
+/*}*/
+
+/*#signupForm {*/
+/*    margin-top: 20px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center; !* Center items horizontally *!*/
+/*}*/
+
+/*#signupForm label,*/
+/*#signupForm input {*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*#signupForm button {*/
+/*    margin-top: 20px;*/
+/*    width: 50%; !* Make the button 50% of the container width *!*/
+/*    cursor: pointer;*/
+/*    border: 0;*/
+/*    border-radius: 4px;*/
+/*    font-weight: 600;*/
+/*    padding: 10px 0;*/
+/*    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);*/
+/*    transition: 0.4s;*/
+/*}*/
+
+/*#signupForm button:active{*/
+/*    background-color: #800080; !* Purple color *!*/
+/*    color: #fff;*/
+/*}*/
+

@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg {
+background: linear-gradient(to top left, #ffa0c6, rgba(255, 197, 195, 0), #df3e70), linear-gradient(to top right, #fca9c7, rgba(253, 213, 211, 0), #dd3566) #f89bba;
+height: 100vh; 
+} 
+
+.will{
+    color: white;
+    font-family: 'Poppins', monospace ;
+    font-size: 2vw;
+    padding-top: 3vw;;
+    padding-left: 3vw;
+}
+
+.teamsection{
+    /* clear: left;  */
+    font-family:'Poppins', monospace;
+    text-align: center;
+    padding-left: 7.25vw;
+    padding-top: 6vw;
+    padding-bottom: 15vw;
+    padding-right: 15vw;
+  }
+  
+
+.inner-width{
+    max-width: 1200px;
+    margin: auto; 
+    padding: 40px;
+  }
+  
+  .teamsection h2{
+    color:#ffff;
+    padding-bottom: 2vw;
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .pe{
+    float:left;
+    width:calc(100%/3);
+    overflow: hidden;
+    padding: 4vw 0;
+    transition: 0.4s;
+    background: #ddd;
+  }
+  
+  .pe:hover{
+    background: #ddd;
+  }
+  
+  .pe img{
+    width: 300px; 
+    height: 300px;
+  }
+  
+  .p-name{
+    margin: 16px 0; 
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 0.5vw;
+    padding-top: 1vw;
+  }
+  
+  .p-des{
+    font-size: 1.5vw;
+    font-weight: 200;
+  }
+  
+  .p-sm{
+    margin-top: 12px;
+  }
+  
+  .p-sm a{
+    margin: 0 4px; 
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    transition: 0.4s;
+  }
+  .p-sm a:hover{
+    transform: scale(1.3);
+  }
+  
+  .p-sm a i{
+    color: #343434;
+    line-height: 30px;
+  }
+  
+  @media screen and (max-width:600px){
+    .pe{
+      width: 100%;
+    }
+  }
+
+  

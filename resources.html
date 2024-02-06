@@ -1,0 +1,129 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Page1</title>-->
+<!--    <link rel="stylesheet" href="stylesheet.css">-->
+<!--    <script src="https://kit.fontawesome.com/7703a65c4f.js" crossorigin="anonymous"></script>-->
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash;<div class="content">&ndash;&gt;-->
+<!--&lt;!&ndash;        <h2> Resources </h2>&ndash;&gt;-->
+<!--&lt;!&ndash;        <ul class="list">&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise1">Will and Testament</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise2">Trust</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise3">Retirement Account</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise4">Power of Attorney</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise5">Insurance</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise6">HIPAA release</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise7">Estate Planning</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise8">Burial Requests</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise9">Property Deed</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            <li> <a href="#" class="organise11">Therapy</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+
+
+<!--<div class="content">-->
+<!--        <ul class="list">-->
+<!--            <li>-->
+<!--                <a href="#" class="box-link" id="box-link1" data-box="box1">Will and Testament</a> <br>-->
+<!--                <div class="pers">&ndash;&gt;-->
+
+<!--                <div class="pe">-->
+<!--                    <img src="IMG_2636.jpg" alt="" >-->
+<!--                    <div class="p-name"> Preyasi Gaur </div>-->
+<!--                    <div class="p-des"> Co-Founder </div>-->
+<!--                    <div class="p-sm">-->
+<!--                        <a href="https://linkedin.com/in/preyasi/"><i class="fab fa-linkedin"></i></a>-->
+<!--                        <a href="https://github.com/preyasigaur"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                </div>-->
+<!--            <li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</body>-->
+<!--</html>-->
+<!--<script>-->
+<!--     var boxLinks = document.getElementsByClassName('box-link');-->
+<!--    var boxes = document.getElementsByClassName('box');-->
+
+<!--// Add click event listener to each box link-->
+<!--for (var i = 0; i < boxLinks.length; i++) {-->
+<!--  boxLinks[i].addEventListener('click', function(e) {-->
+<!--    e.preventDefault();-->
+
+<!--    // Get the target box ID-->
+<!--    var boxId = this.getAttribute('data-box');-->
+<!--    var box = document.getElementById(boxId);-->
+
+<!--    // Toggle the display of the corresponding box-->
+<!--    box.classList.toggle('show-box');-->
+<!--  });-->
+<!--}-->
+
+
+<!--      </script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/7703a65c4f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="content">
+    <ul class="list">
+        <li>
+            <a href="#" class="box-link" data-box="box1">Will and Testament</a> <br>
+            <div class="pers">
+                <div class="pe">
+                    <img src="IMG_2636.jpg" alt="">
+                    <div class="p-name">Preyasi Gaur</div>
+                    <div class="p-des">Co-Founder</div>
+                    <div class="p-sm">
+                        <a href="https://linkedin.com/in/preyasi/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/preyasigaur"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script>
+    var boxLinks = document.getElementsByClassName('box-link');
+
+    // Add click event listener to each box link
+    for (var i = 0; i < boxLinks.length; i++) {
+        boxLinks[i].addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Get the target box ID
+            var boxId = this.getAttribute('data-box');
+            var box = document.getElementById(boxId);
+
+            // Toggle the display of the corresponding box
+            if (box) {
+                box.classList.toggle('show-box');
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
