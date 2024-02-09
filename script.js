@@ -17,4 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // document.querySelector('.container button.reg:nth-child(2)').addEventListener('click', redirectToSignup);
     document.querySelector('.container button.reg:nth-child(3)').addEventListener('click', redirectToResources);
 
+
+
 });
